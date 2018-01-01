@@ -47,6 +47,8 @@ percentChart.setPercentChart(mSamples);
 ```
 * *ArrayList<PercentChartData> percents* : items of percent chart
 
+#### ++
+
 ```java
 public void setLabelCount(int count)
 ```
@@ -97,6 +99,8 @@ timeChart.setTimeChart(getMillis("2017-11-10 00:00:00"), mSamples);
 ```
 * *long date* : the reference date
 * *ArrayList<TimeChartData> charts* : items of time chart
+
+#### ++
 
 ```java
 public void setLabelCount(int count)
