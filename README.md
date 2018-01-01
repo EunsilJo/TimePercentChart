@@ -2,7 +2,7 @@ TimePercentChart
 ===================
 [![](https://jitpack.io/v/EunsilJo/TimePercentChart.svg)](https://jitpack.io/#EunsilJo/TimePercentChart) [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
-Android Library that shows simple PercentChart, TimeChart.
+Android Library that shows simple percent chart and time chart.
 
 ## How to import
 Add it in your root build.gradle at the end of repositories:
