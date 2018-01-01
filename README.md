@@ -87,8 +87,7 @@ public class LegendData {
 
 ### TimeChartView
 
-<img src="https://github.com/EunsilJo/TimePercentChart/blob/master/screenshots/5.png?raw=true" height="400"/> 
-
+<img src="https://github.com/EunsilJo/TimePercentChart/blob/master/screenshots/5.png?raw=true" height="400"/> <img src="https://github.com/EunsilJo/TimePercentChart/blob/master/screenshots/6.png?raw=true" height="400"/>
 ```java
 timeChart.setStartHour(6);
 ```

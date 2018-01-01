@@ -3,6 +3,7 @@ package com.github.eunsiljo.timepercentchart;
 import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -26,7 +27,9 @@ public class TimeChartActivity extends AppCompatActivity {
 
     private ArrayList<TimeChartData> mSamples = new ArrayList<>();
 
-    private List<String> mHeaders =  Arrays.asList("Plan", "Do");
+    private List<String> mTwoHeaders =  Arrays.asList("Plan", "Do");
+    private List<String> mFiveHeaders = Arrays.asList("Korean", "English", "Math", "Science", "Physics");
+    private List<String> mHeaders = mTwoHeaders;
     private long mNow = 0;
     
     @Override
@@ -107,11 +110,32 @@ public class TimeChartActivity extends AppCompatActivity {
         mSamples.addAll(charts);
     }
 
+    private void setChartHeaders(int id){
+        switch (id){
+            case R.id.action_2_items:
+                mHeaders = mTwoHeaders;
+                break;
+            case R.id.action_5_items:
+                mHeaders = mFiveHeaders;
+                break;
+        }
+        btnRefresh.callOnClick();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_time_chart, menu);
+        return true;
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if(id == android.R.id.home){
             onBackPressed();
+        }else{
+            setChartHeaders(id);
         }
         return super.onOptionsItemSelected(item);
     }
