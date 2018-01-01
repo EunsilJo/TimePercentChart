@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976d2</color>
+    <color name="colorPrimaryDark">#004ba0</color>
+    <color name="colorAccent">#63a4ff</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="color_gray_light">#DBDBDB</color>
+
+    <color name="color_chart_1">#C67ACC</color>
+    <color name="color_chart_2">#7187E8</color>
+    <color name="color_chart_3">#E77467</color>
+    <color name="color_chart_4">#F2AF5D</color>
+    <color name="color_chart_5">#7DC73C</color>
+    <color name="color_chart_grid">#E8E8E8</color>
+
+    <array name="colors_chart">
+        <item>@color/color_chart_1</item>
+        <item>@color/color_chart_2</item>
+        <item>@color/color_chart_3</item>
+        <item>@color/color_chart_4</item>
+        <item>@color/color_chart_5</item>
+    </array>
+
+</resources>

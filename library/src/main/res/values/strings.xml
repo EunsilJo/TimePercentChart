@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TimePercentChartLib</string>
+
+    <!-- TimeChartView -->
+    <string name="time_chart_x_format">%1$02dh</string>
+    <string name="time_chart_legend_format_time_h_m">%1$dhrs %2$dmins</string>
+    <string name="time_chart_legend_format_time_h">%1$dhrs</string>
+    <string name="time_chart_legend_format_time_m">%1$dmins</string>
+
+    <!-- PercentChartView -->
+    <string name="percent_chart_legend_format_time_h_m">%1$02d:%2$02d</string>
+    <string name="percent_chart_value">%1$s%%</string>
+    <string name="percent_chart_sub_value">(%1$s)</string>
+
+</resources>

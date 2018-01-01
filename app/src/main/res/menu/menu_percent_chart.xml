@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_legend"
+        android:orderInCategory="100"
+        android:title="@string/menu_legend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_percent"
+        android:orderInCategory="101"
+        android:title="@string/menu_percent"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_value"
+        android:orderInCategory="102"
+        android:title="@string/menu_value"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_none"
+        android:orderInCategory="103"
+        android:title="@string/menu_none"
+        app:showAsAction="never" />
+</menu>

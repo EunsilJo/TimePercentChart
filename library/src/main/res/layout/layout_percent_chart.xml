@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        style="@style/layoutPaddingDefault"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/layoutPercent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_chart_height"
+            android:orientation="horizontal"
+            android:weightSum="100"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutXUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_micro"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/layoutX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/txtUnit"
+            style="@style/textMicro"
+            android:minWidth="@dimen/common_chart_x_width"
+            android:layout_gravity="right"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerLegend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/common_margin_small"
+        android:paddingRight="@dimen/common_margin_small" />
+</LinearLayout>

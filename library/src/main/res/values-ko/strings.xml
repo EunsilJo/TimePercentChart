@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TimeChartView -->
+    <string name="time_chart_legend_format_time_h_m">%1$d시간 %2$d분</string>
+    <string name="time_chart_legend_format_time_h">%1$d시간</string>
+    <string name="time_chart_legend_format_time_m">%1$d분</string>
+    
+</resources>
